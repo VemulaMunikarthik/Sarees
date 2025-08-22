@@ -35,6 +35,15 @@ const sarees = [
     available: false,
     image: "https://images.unsplash.com/photo-4",
     description: "Traditional Kanjivaram silk saree.",
+  },
+   {
+    id: 6,
+    name: "Silk Saree",
+    price: 1500,
+    model: "SILK123",
+    available: true,
+    image: "https://images.unsplash.com/photo-1",
+    description: "Beautiful red silk saree with golden border.",
   }
 ];
 
@@ -74,3 +83,4 @@ function showSareeDetail(saree) {
 function closeSareeDetail() {
   sareeDetail.classList.remove('show');
 }
+
